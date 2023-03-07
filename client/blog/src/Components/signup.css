@@ -1,0 +1,82 @@
+.signup{
+  
+    height:80vh;
+    display: flex;
+    justify-content: center;
+     margin-top: 15px;
+    font-size: larger;
+    font-family: cursive;
+
+}
+.user{
+    margin:40px;
+    display: flex;
+    text-align: center;
+    justify-content: space-between;
+    width:90%;
+    align-items: center;
+
+}
+.h1{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10vh;
+
+}
+.form{
+    box-shadow: 4px 7px grey;
+    border: 1px solid grey;
+    border-radius: 30px;
+    height: 80vh;
+    width: 40%;
+}
+.inputs{
+    width:75%;
+    padding: 0.7vmax;
+    outline: none;
+  border-color: rgba(0, 0, 255, 0.402);
+  border-radius: 10px;
+  font-size: large;
+  font-family: cursive;
+}
+.signbtn{
+
+    display: flex;
+    justify-content: center;
+    margin-bottom: 5vh;
+}
+.signlgn{
+    display: flex;
+    justify-content: center;
+    margin-right: 10px;
+     align-items: center;
+}
+.btnsgn{
+  padding: 0.4vmax;
+  border-radius: 10px;
+ font-family: cursive;
+ font-size: large;
+ border: none   ;
+background-color: rgba(0, 179, 255, 0.435);
+transition: all 0.4s;
+}
+.btnsgn:hover{
+    transform: scale(1.2);
+    background-color: rgba(0, 179, 255, 0.734) ;
+     cursor: pointer;
+}
+.lgnbtn{
+  padding: 0.4vmax;
+  border-radius: 10px;
+ font-family: cursive;
+ font-size: large;
+ border: none   ;
+background-color: rgba(0, 179, 255, 0.435);
+transition: all 0.4s;
+margin-left: 8px;
+}
+.lgnbtn:hover{
+       transform: scale(1.2);
+    background-color: rgba(0, 179, 255, 0.734) ;
+    cursor: pointer;
+}

@@ -1,0 +1,39 @@
+.container{
+    border: 1px solid blue;
+    max-height: 10vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1vmax;
+    font-family: cursive;
+    background-color: rgba(0, 0, 0, 0.681);
+    color: beige;
+    box-shadow: 3px 5px grey;
+}
+.blog{
+    color: darkorange;
+    text-decoration: none;
+    transition: all 0.4s;
+}
+.blog:hover{
+    color: skyblue;
+    
+}
+
+.btnnav{
+     padding:0.5vmax ;
+    margin-right: 1vmax;
+    border-radius: 0.8vmax;
+     font-family: cursive;
+     background-color: skyblue;
+     border: none;
+     font-size: large;
+     transition: all 0.5s;
+}
+
+.btnnav:hover{
+    cursor: pointer;
+    transform: scale(1.2);
+    background-color: rgba(11, 82, 144, 0.768);
+    
+}

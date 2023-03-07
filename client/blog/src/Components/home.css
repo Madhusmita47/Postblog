@@ -1,0 +1,43 @@
+.image{
+    float:right;
+    filter: drop-shadow(0 30px 10px rgba(0,0,0,0.3));
+    animation: animesA 3s infinite ease-in-out alternate;
+}
+@keyframes animesA {
+    to{
+       transform: translateX(-20px);
+    }  
+}
+.parent{
+    display: flex;
+    justify-content: space-around;
+}
+.home{
+
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+  justify-content: center;
+  font-family: cursive;
+  font-size: x-large;
+}
+.intro{
+    margin-bottom: 2vmax;
+}
+.explore{
+    padding:0.8vmax;
+    border-radius: 0.8vmax;
+    font-family: cursive;
+    font-size: large;
+    background-color: skyblue;
+    border: none;
+    font-weight: 700;
+    transition:ease-in-out 0.4s;
+}
+.explore:hover{
+  cursor: pointer;
+  transform: scale(1.2);
+ background-color: rgba(11, 82, 144, 0.768);
+    
+}

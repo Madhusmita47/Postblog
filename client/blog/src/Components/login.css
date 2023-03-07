@@ -1,0 +1,84 @@
+.login{
+ 
+    height:80vh;
+    display: flex;
+    justify-content: center;
+   align-items: center;
+    font-size: larger;
+    font-family: cursive;
+
+}
+.userl{
+    margin:40px;
+    display: flex;
+    text-align: center;
+    justify-content: space-between;
+    width:90%;
+    align-items: center;
+
+}
+.h1l{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10vh;
+
+}
+.form1{
+    box-shadow: 4px 7px grey;
+    border: 1px solid grey;
+    border-radius: 30px;
+    height: 65vh;
+    width: 40%;
+}
+.inputl{
+    width:75%;
+    padding: 0.7vmax;
+    outline: none;
+  border-color: rgba(0, 0, 255, 0.402);
+  border-radius: 10px;
+  font-size: large;
+  font-family: cursive;
+}
+.lognbtn{
+
+    display: flex;
+    justify-content: center;
+    margin-bottom: 2vh;
+
+}
+.sign{
+    display: flex;
+    justify-content: center;
+    margin-right: 10px;
+    align-items: center;
+}
+.btnlgn1{
+  padding: 0.4vmax;
+  border-radius: 10px;
+ font-family: cursive;
+ font-size: large;
+ border: none   ;
+background-color: rgba(0, 179, 255, 0.435);
+transition: all 0.4s;
+}
+.btnlgn1:hover{
+    transform: scale(1.2);
+    background-color: rgba(0, 179, 255, 0.734) ;
+     cursor: pointer;
+}
+.lgnbtn1{
+  padding: 0.4vmax;
+  border-radius: 10px;
+ font-family: cursive;
+ font-size: large;
+ border: none   ;
+background-color: rgba(0, 179, 255, 0.435);
+transition: all 0.4s;
+margin-left: 8px;
+}
+.lgnbtn1:hover{
+       transform: scale(1.2);
+    background-color: rgba(0, 179, 255, 0.734) ;
+     cursor: pointer;
+
+}
